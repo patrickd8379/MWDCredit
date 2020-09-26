@@ -56,7 +56,7 @@ def cardGenerate():
     cardsFile.close()
     cardsFile = open("cardsFile.txt", "r")
     print(cardsFile.read())
-    
+
 
 def cardMake():
     cardNum = []
